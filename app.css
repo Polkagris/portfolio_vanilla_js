@@ -1,0 +1,144 @@
+html,
+body {
+  margin: 0;
+  background-color: #e0e0e0;
+  font-family: "Segoe UI", Arial, san-serif;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 90px;
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navLeftContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navRightContainer {
+  display: flex;
+}
+
+.logo {
+  height: 45px;
+  margin: 0 20px;
+}
+
+.brand {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.navElement {
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 150px 30px 50px 30px;
+}
+
+.title {
+  color: #424242;
+  max-width: 500px;
+}
+
+.subTitle {
+  color: #424242;
+  max-width: 500px;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 100px 0;
+}
+
+.singleProjectContainer {
+  margin: 30px 20px;
+}
+
+.projectImage {
+  height: 400px;
+}
+
+.projectText {
+  max-width: 400px;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  height: 400px;
+  width: 400px;
+}
+
+.aboutParagraph {
+  width: 500px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 300px;
+  background-color: blueviolet;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.footerText {
+  font-size: 20px;
+  color: #fff;
+}
+
+.socialMediaContainer {
+  display: flex;
+}
+
+.iconContainer {
+  margin: 10px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .projectImage {
+    height: 200px;
+  }
+
+  .contactContainer {
+    margin: 20px;
+  }
+}
