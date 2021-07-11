@@ -61,6 +61,22 @@ body {
   max-width: 500px;
 }
 
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  height: 400px;
+  width: 400px;
+}
+
+.aboutParagraph {
+  max-width: 500px;
+  margin: 0 20px;
+}
+
 .projectsContainer {
   display: flex;
   flex-direction: column;
@@ -81,26 +97,12 @@ body {
   max-width: 400px;
 }
 
-.aboutContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profileImage {
-  height: 400px;
-  width: 400px;
-}
-
-.aboutParagraph {
-  width: 500px;
-}
-
 .footerContainer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 300px;
+  width: 100%;
   background-color: blueviolet;
 }
 
